@@ -8,7 +8,7 @@ const routes = [
     children: [
       {
         path: '',
-        name: 'A TASTE OF NEURONS, EXPLORING AI, IT, EMusic',
+        name: 'HOME',
         component: () => import('@/views/Home.vue'),
       }
     ],

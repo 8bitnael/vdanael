@@ -7,7 +7,7 @@
 
     <v-card class="mx-auto" max-width="400">
       <v-list nav>
-        <v-list-item-group v-model="model" active-class="border" color="indigo">
+        <v-list-item-group v-model="model" active-class="border" color="primary"> <!-- colore sidebar-->
           <v-list-item v-for="item in items" :key="item.value" :prepend-icon="item.icon" :title="item.title"
             :value="item.value" link @click="$router.push({ path: item.route })" />
         </v-list-item-group>
@@ -24,12 +24,12 @@
        <v-list-item title="GITHUB" prepend-icon="mdi-github"
         href="https://github.com/8bitnael" target="_blank">
       </v-list-item>
-      <v-list-item title="YOUTUBE" prepend-icon="mdi-youtube"
+      <!--   <v-list-item title="YOUTUBE" prepend-icon="mdi-youtube"
         href="https://www.youtube.com/channel/UCQaLGb7KoIiiUUDjHkbm4Lw" target="_blank">
       </v-list-item>
        <v-list-item title="SOUNDCLOUD" prepend-icon="mdi-soundcloud"
         href="https://soundcloud.com/vd-danael" target="_blank">
-      </v-list-item>
+      </v-list-item>-->
     </v-list>
     <v-divider></v-divider>
 

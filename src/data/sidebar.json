@@ -3,23 +3,13 @@
     "items": [
         {
             "icon": "mdi-home-variant",
-            "title": "A.T.O.N",
+            "title": "HOME",
             "route": "/"
         },
         {
             "icon": "mdi mdi-information",
-            "title": "ABOUT",
+            "title": "ABOUT ME",
             "route": "/about"
-        },
-        {
-            "icon": "mdi mdi-engine",
-            "title": "I.T. SURVIVAL TIPS",
-            "route": "/itsurvival"
-        },
-        {
-            "icon": "mdi mdi-brain",
-            "title": "A.I.",
-            "route": "/ai"
-        }  
+        }
     ]
 }

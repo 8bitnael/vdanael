@@ -1,7 +1,7 @@
 <template>
-  <v-app-bar app color="dark accent-4" dark image="">
+  <v-app-bar app color="light">
 
-    <v-toolbar dark prominent image="@/assets/imgs/banner.png">
+    <v-toolbar>
 
      
       <v-toolbar-title class="font-lucida centered-title">

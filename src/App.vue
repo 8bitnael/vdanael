@@ -23,11 +23,11 @@ import '@/assets/css/font8bit.css';
   }
 
   ::-webkit-scrollbar-track {
-    background-color: #f5f5f5;
+    background-color: #d42a2a;
   }
 
   ::-webkit-scrollbar-thumb {
-    background-color: #aaa;
+    background-color: #ca2020;
     border-radius: 8px;
     border: 2px solid #f5f5f5;
   }
