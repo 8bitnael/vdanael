@@ -4,7 +4,7 @@
     <v-main>
       <router-view />
     </v-main>
-     <!--<Footer/> -->
+    <Footer/>  
   </v-app>
 </template>
 
@@ -23,11 +23,12 @@ import '@/assets/css/font8bit.css';
   }
 
   ::-webkit-scrollbar-track {
-    background-color: #d42a2a;
+    background-color: #666565;
+    border: 2px solid #f5f5f5;
   }
 
   ::-webkit-scrollbar-thumb {
-    background-color: #ca2020;
+    background-color: #2eca20;
     border-radius: 8px;
     border: 2px solid #f5f5f5;
   }

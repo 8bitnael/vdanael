@@ -1,5 +1,4 @@
 {
-    "//https://pictogrammers.com/library/mdi/ Material Design Icons": "https://pictogrammers.github.io/@mdi/font/1.0.62/",
     "items": [
         {
             "icon": "mdi-home-variant",
@@ -10,6 +9,11 @@
             "icon": "mdi mdi-information",
             "title": "ABOUT ME",
             "route": "/about"
+        },
+        {
+            "icon": "mdi-account-multiple-plus",
+            "title": "L5IT03",
+            "route": "/l5it03"
         }
     ]
 }

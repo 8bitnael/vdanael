@@ -25,55 +25,17 @@ const routes = [
       }
     ],
   },
-
   {
-    path: '/engHub',
+    path: '/l5it03',
     component: () => import('@/layouts/default/Default.vue'),
     children: [
       {
         path: '',
-        name: 'ENG.HUB',
-        component: () => import('@/views/GrammarHub.vue'),
+        name: 'L5IT03',
+        component: () => import('@/views/l5it03.vue'),
       }
     ],
   },
-
-  {
-    path: '/itsurvival',
-    component: () => import('@/layouts/default/Default.vue'),
-    children: [
-      {
-        path: '',
-        name: 'I.T. SURVIVAL TIPS',
-        component: () => import('@/views/ItSurvival.vue'),
-      }
-    ],
-  },
-
-  {
-    path: '/ai',
-    component: () => import('@/layouts/default/Default.vue'),
-    children: [
-      {
-        path: '',
-        name: 'A.I.',
-        component: () => import('@/views/AI.vue'),
-      }
-    ],
-  },
-
-  {
-    path: '/headphone',
-    component: () => import('@/layouts/default/Default.vue'),
-    children: [
-      {
-        path: '',
-        name: '8BITNAEL.HEADPHONE',
-        component: () => import('@/views/Headphone.vue'),
-      }
-    ],
-  }
-
 ]
 
 const router = createRouter({

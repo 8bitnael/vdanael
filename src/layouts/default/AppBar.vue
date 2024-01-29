@@ -1,13 +1,9 @@
 <template>
   <v-app-bar app color="light">
-
     <v-toolbar>
-
-     
       <v-toolbar-title class="font-lucida centered-title">
         {{ $route.name }}
       </v-toolbar-title>
-
     </v-toolbar>
   </v-app-bar>
 </template>
