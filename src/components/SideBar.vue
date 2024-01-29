@@ -24,12 +24,6 @@
        <v-list-item title="GITHUB" prepend-icon="mdi-github"
         href="https://github.com/8bitnael" target="_blank">
       </v-list-item>
-      <!--   <v-list-item title="YOUTUBE" prepend-icon="mdi-youtube"
-        href="https://www.youtube.com/channel/UCQaLGb7KoIiiUUDjHkbm4Lw" target="_blank">
-      </v-list-item>
-       <v-list-item title="SOUNDCLOUD" prepend-icon="mdi-soundcloud"
-        href="https://soundcloud.com/vd-danael" target="_blank">
-      </v-list-item>-->
     </v-list>
     <v-divider></v-divider>
 
