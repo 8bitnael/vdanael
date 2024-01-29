@@ -52,33 +52,19 @@ npm run lint
 pnpm lint
 ```
 
-### Customize configuration
+### L5IT03 Assessment Criteria
 
-See [Configuration Reference](https://vitejs.dev/config/).
+2.1 Use styles, themes and master pages to create an attractive and easily navigable web applications
 
+2.2 Display dynamic data from a relational database by using ADO.NET and data binding through different languages including C#
 
-{
-    "//https://pictogrammers.com/library/mdi/ Material Design Icons": "https://pictogrammers.github.io/@mdi/font/1.0.62/",
-    "items": [
-        {
-            "icon": "mdi-home-variant",
-            "title": "A.T.O.N",
-            "route": "/"
-        },
-        {
-            "icon": "mdi mdi-information",
-            "title": "ABOUT",
-            "route": "/about"
-        },
-        {
-            "icon": "mdi mdi-engine",
-            "title": "I.T. SURVIVAL TIPS",
-            "route": "/itsurvival"
-        },
-        {
-            "icon": "mdi mdi-brain",
-            "title": "A.I.",
-            "route": "/ai"
-        }  
-    ]
-}
+2.3 Create a web page that usesclient side navigation, client side browser redirect, cross page posting and server side transfer that meets the brief
+
+//1 - Client-Side vs. Server-Side Routing
+https://vuejs.org/guide/scaling-up/routing
+
+//2 - How to Redirect in Vue
+https://michaelnthiessen.com/redirect-in-vue
+
+// Vue: shared data between different pages
+ 
